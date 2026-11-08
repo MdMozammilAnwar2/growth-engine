@@ -1,0 +1,11 @@
+{
+  "appId": "com.anwar.growthengine",
+  "appName": "Growth Engine",
+  "webDir": "../web/dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0A0A0C"
+  }
+}

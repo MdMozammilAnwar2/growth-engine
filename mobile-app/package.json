@@ -1,0 +1,20 @@
+{
+  "name": "growth-engine-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Android app for Growth Engine. Wraps the web app (../web) with Capacitor.",
+  "scripts": {
+    "build:web": "npm --prefix ../web run build",
+    "add:android": "cap add android",
+    "sync": "npm run build:web && cap sync android",
+    "open": "cap open android",
+    "run": "npm run sync && cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.0"
+  }
+}
